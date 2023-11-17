@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # PROVIDE: puma
-# REQUIRE: LOGIN postgresql mysql
+# REQUIRE: LOGIN mysql postgresql redis
 # KEYWORD: shutdown
 
 . /etc/rc.subr
